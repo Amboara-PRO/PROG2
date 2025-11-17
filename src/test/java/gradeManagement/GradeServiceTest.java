@@ -30,7 +30,7 @@ public class GradeServiceTest {
                 "prof@mail.com", "111", "Java");
 
         student = new Student(50, "Randria", "Kezia", LocalDate.of(2004, 4, 14),
-                "kezia@mail.com", "222", "G1", tutor);
+                "kezia@mail.com", "222", "K1", tutor);
 
         course = new Course(100, "PROG2", 6, teacher);
 

@@ -8,12 +8,10 @@ public class GradeService {
 
     private List<Grade> grades;
 
-    // Constructeur
     public GradeService() {
         this.grades = new ArrayList<>();
     }
 
-    // Ajouter une note à la liste
     public void addGrade(Grade grade) {
         grades.add(grade);
     }
